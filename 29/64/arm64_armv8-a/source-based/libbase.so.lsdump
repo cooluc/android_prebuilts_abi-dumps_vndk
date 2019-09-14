@@ -185,13 +185,22 @@
    "name" : "_ZN7android4base10LogMessage6streamEv"
   },
   {
+   "name" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_5LogIdENS0_11LogSeverityES3_"
+  },
+  {
    "name" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_5LogIdENS0_11LogSeverityES3_S3_"
   },
   {
    "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
   },
   {
+   "name" : "_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityEi"
+  },
+  {
    "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityES3_i"
+  },
+  {
+   "name" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityEi"
   },
   {
    "name" : "_ZN7android4base10LogMessageD1Ev"
@@ -939,6 +948,31 @@
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
+   "access" : "private",
+   "function_name" : "android::base::LogMessage::LogLine",
+   "linker_set_key" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_5LogIdENS0_11LogSeverityES3_",
+   "parameters" :
+   [
+    {
+     "referenced_type" : "type-38"
+    },
+    {
+     "referenced_type" : "type-31"
+    },
+    {
+     "referenced_type" : "type-30"
+    },
+    {
+     "referenced_type" : "type-51"
+    },
+    {
+     "referenced_type" : "type-38"
+    }
+   ],
+   "return_type" : "type-69",
+   "source_file" : "/system/core/base/include/android-base/logging.h"
+  },
+  {
    "function_name" : "android::base::LogMessage::LogLine",
    "linker_set_key" : "_ZN7android4base10LogMessage7LogLineEPKcjNS0_5LogIdENS0_11LogSeverityES3_S3_",
    "parameters" :
@@ -997,6 +1031,35 @@
    "source_file" : "/system/core/base/include/android-base/logging.h"
   },
   {
+   "access" : "private",
+   "function_name" : "android::base::LogMessage::LogMessage",
+   "linker_set_key" : "_ZN7android4base10LogMessageC1EPKcjNS0_5LogIdENS0_11LogSeverityEi",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-43"
+    },
+    {
+     "referenced_type" : "type-38"
+    },
+    {
+     "referenced_type" : "type-31"
+    },
+    {
+     "referenced_type" : "type-30"
+    },
+    {
+     "referenced_type" : "type-51"
+    },
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "return_type" : "type-69",
+   "source_file" : "/system/core/base/include/android-base/logging.h"
+  },
+  {
    "function_name" : "android::base::LogMessage::LogMessage",
    "linker_set_key" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityES3_i",
    "parameters" :
@@ -1019,6 +1082,35 @@
     },
     {
      "referenced_type" : "type-38"
+    },
+    {
+     "referenced_type" : "type-8"
+    }
+   ],
+   "return_type" : "type-69",
+   "source_file" : "/system/core/base/include/android-base/logging.h"
+  },
+  {
+   "access" : "private",
+   "function_name" : "android::base::LogMessage::LogMessage",
+   "linker_set_key" : "_ZN7android4base10LogMessageC2EPKcjNS0_5LogIdENS0_11LogSeverityEi",
+   "parameters" :
+   [
+    {
+     "is_this_ptr" : true,
+     "referenced_type" : "type-43"
+    },
+    {
+     "referenced_type" : "type-38"
+    },
+    {
+     "referenced_type" : "type-31"
+    },
+    {
+     "referenced_type" : "type-30"
+    },
+    {
+     "referenced_type" : "type-51"
     },
     {
      "referenced_type" : "type-8"
